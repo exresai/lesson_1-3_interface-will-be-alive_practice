@@ -114,7 +114,7 @@ console.log(names.length);
 **Практика.** `querySelectorAll` возвращает коллекцию элементов страницы. Найдите все карточки и выведите их количество в элемент `#event-count`:
 
 ```js
-const cards = document.querySelectorAll("___");
+const cards = document.querySelectorAll(".event-card");
 const eventCount = document.querySelector("#event-count");
 eventCount.textContent = cards.length;
 ```
