@@ -16,6 +16,12 @@ const eventCount = document.querySelector("#event-count");
 
 eventCount.textContent = cards.length;
 
+cards.forEach((card) => {
+  card.addEventListener("click", () => {
+    labStatus.textContent = "Нажата карточка из программы";
+  });
+});
+
 firstCard.addEventListener("click", () => {
   clickCount = clickCount + 1;
 
@@ -31,6 +37,7 @@ firstCard.addEventListener("click", () => {
 secondCard.addEventListener("click", () => {
   detailsTitle.textContent = "Мастерская постеров";
 });
+
 
 // 02–03. Вы будете постепенно менять обработчик выше: добавите
 // переменные, счетчик нажатий и условие. Не создавайте второй
