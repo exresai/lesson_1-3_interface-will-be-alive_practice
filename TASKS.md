@@ -38,7 +38,7 @@ let clickCount = 0;
 
 ```js
 firstCard.addEventListener("click", () => {
-  clickCount = clickCount + ___;
+  clickCount = clickCount + 1;
   labStatus.textContent = `${eventName}: нажатий ${clickCount}`;
 });
 ```
