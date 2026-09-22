@@ -72,7 +72,7 @@ if (clickCount === 1) {
 **Практика.** Перед обработчиком создайте переменную. Вместо `___` впишите селектор заголовка:
 
 ```js
-const detailsTitle = document.querySelector("___");
+const detailsTitle = document.querySelector("#details-title");
 ```
 
 В обработчике первой карточки после изменения подписи добавьте строку, которая записывает `eventName` в `detailsTitle.textContent`.
