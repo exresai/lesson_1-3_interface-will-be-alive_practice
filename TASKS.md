@@ -88,8 +88,8 @@ const detailsTitle = document.querySelector("#details-title");
 ```js
 const secondCard = document.querySelector('[data-event="workshop"]');
 
-secondCard.addEventListener("___", () => {
-  // Здесь измените detailsTitle.textContent.
+secondCard.addEventListener("click", () => {
+  detailsTitle.textContent = "Мастерская постеров";
 });
 ```
 
