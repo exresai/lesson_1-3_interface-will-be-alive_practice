@@ -11,6 +11,11 @@ const detailsTitle = document.querySelector("#details-title");
 const eventName = "Город в деталях";
 let clickCount = 0;
 
+const cards = document.querySelectorAll(".event-card");
+const eventCount = document.querySelector("#event-count");
+
+eventCount.textContent = cards.length;
+
 firstCard.addEventListener("click", () => {
   clickCount = clickCount + 1;
 
