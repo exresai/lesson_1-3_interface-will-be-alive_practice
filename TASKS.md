@@ -52,7 +52,7 @@ firstCard.addEventListener("click", () => {
 **Учебный опыт.** `if` выбирает, какой код выполнить. После увеличения `clickCount` сравните его с числом первого нажатия. Внутри прежнего обработчика вместо одной строки с подписью используйте такую конструкцию:
 
 ```js
-if (clickCount === ___) {
+if (clickCount === 1) {
   labStatus.textContent = `Первое открытие: ${eventName}`;
 } else {
   labStatus.textContent = `Повторное открытие: ${eventName}`;
