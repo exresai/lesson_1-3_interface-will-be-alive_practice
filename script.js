@@ -6,8 +6,12 @@
 const firstCard = document.querySelector('[data-event="talk"]');
 const labStatus = document.querySelector("#lab-status");
 
+const eventName = "Город в деталях";
+let clickCount = 0;
+
 firstCard.addEventListener("click", () => {
-  labStatus.textContent = "Первая карточка сработала";
+  clickCount = clickCount + 1;
+  labStatus.textContent = `${eventName}: нажатий ${clickCount}`;
 });
 
 
