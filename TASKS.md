@@ -127,7 +127,7 @@ eventCount.textContent = cards.length;
 
 ```js
 cards.forEach((card) => {
-  eventCard.addEventListener("click", () => {
+  card.addEventListener("click", () => {
     labStatus.textContent = "Нажата карточка из программы";
   });
 });
