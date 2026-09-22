@@ -7,7 +7,7 @@ const firstCard = document.querySelector('[data-event="talk"]');
 const labStatus = document.querySelector("#lab-status");
 
 firstCard.addEventListener("click", () => {
-  labStatus.textContent = "Клик сработал. JavaScript подключен!";
+  labStatus.textContent = "Первая карточка сработала";
 });
 
 
