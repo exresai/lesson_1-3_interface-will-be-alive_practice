@@ -10,6 +10,7 @@ const eventName = "Город в деталях";
 let clickCount = 0;
 
 firstCard.addEventListener("click", () => {
+  clickCount = clickCount + 1;
   if (clickCount === 1) {
     labStatus.textContent = `Первое открытие: ${eventName}`;
   } else {
