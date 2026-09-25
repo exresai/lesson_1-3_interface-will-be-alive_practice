@@ -148,8 +148,8 @@ cards.forEach((card) => {
 ```js
 function showEvent(card) {
   detailsTitle.textContent = card.dataset.title;
-  detailsDescription.textContent = card.dataset.title; // Здесь намеренная ошибка.
-  // Допишите время события.
+  detailsDescription.textContent = card.dataset.description;
+  detailsTime.textContent = card.dataset.time;
 }
 ```
 
